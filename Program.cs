@@ -26,3 +26,5 @@ void PrintArray(string[] array)
   }
   Console.WriteLine();
 }
+ArrayPhrases(array, array1);
+PrintArray(array1);
