@@ -17,3 +17,12 @@ void ArrayPhrases(string[] arr, string[] arr1)
     }
   }
 }
+
+void PrintArray(string[] array)
+{
+  for (int i = 0; i < array.Length; i++)
+  {
+    Console.Write(($"{array[i]} "));
+  }
+  Console.WriteLine();
+}
